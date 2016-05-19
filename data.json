@@ -1,0 +1,10 @@
+{
+  "location": {
+    "radius": {
+      "a": 500,
+      "b": 100
+    },
+    "min_offset": 50,
+    "max_offset": 250
+  }
+}
