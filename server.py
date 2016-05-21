@@ -18,7 +18,6 @@ except socket.error as msg:
 s.listen(10)
 print 'Listening command'
 
-
 def clientthread(conn):
     conn.send('Welcome 200 OK.\n')  # send only takes string
     while True:
